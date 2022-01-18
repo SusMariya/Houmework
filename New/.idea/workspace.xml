@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0f1032-7c69-4a53-8283-981e6f0a8528" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/d_z29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d_z30.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z29.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z30.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z30.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +30,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1/25.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1" />
   </component>
-  <component name="RunManager" selected="Python.d_z29">
+  <component name="RunManager" selected="Python.d_z30">
     <configuration name="d_z25" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.d_z29" />
         <item itemvalue="Python.d_z30" />
+        <item itemvalue="Python.d_z29" />
         <item itemvalue="Python.d_z28" />
         <item itemvalue="Python.d_z26" />
         <item itemvalue="Python.d_z25" />

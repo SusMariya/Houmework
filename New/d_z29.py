@@ -36,4 +36,4 @@ class QuadEquation(Root):
 root1 = LinearEquation()
 root1.calk_root(3, 7)
 root2 = QuadEquation()
-root2.calk_root(1, -2, -3)
+root2.calk_root(1, 2, -3)
