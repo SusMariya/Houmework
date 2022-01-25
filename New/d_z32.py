@@ -39,8 +39,7 @@ class Sqare(Shape):
     def print_info(self):
         print(
             f"=== {self.name}===\nСторона: {self.a}\nЦвет: {self.color}\nПлощадь: {self.print_sq()}\nПериметр: {self.print_per()}")
-        print(f"{self.print_draw()}")
-
+        self.print_draw()
 
 class Rectangle(Shape):
     def __init__(self, name, a, b, color):
@@ -62,7 +61,8 @@ class Rectangle(Shape):
     def print_info(self):
         print(
             f"=== {self.name}===\nДлина: {self.a}\nШирина: {self.b}\nЦвет: {self.color}\nПлощадь: {self.print_sq()}\nПериметр: {self.print_per()}")
-        print(f"{self.print_draw()}")
+        self.print_draw()
+
 
 
 class Triaangle(Shape):
@@ -87,13 +87,12 @@ class Triaangle(Shape):
     def print_info(self):
         print(
             f"=== {self.name}===\nСторона 1: {self.a}\nСторона 2: {self.b}\nСторона 3: {self.c}\nЦвет: {self.color}\nПлощадь: {self.print_sq()}\nПериметр: {self.print_per()}")
-        print(f"{self.print_draw()}")
+        self.print_draw()
 
 
 sq = Sqare("Квадрат", 3, "red")
-sq.print_info()
 sq1 = Rectangle("Прямоугольник", 3, 7, "green")
-sq1.print_info()
 sq2 = Triaangle("Треугольник", 11, 6, 6, "yellow")
-sq2.print_info()
-
+for i in (sq, sq1, sq2):
+    i.print_info()
+    print()
