@@ -3,6 +3,10 @@ import math
 
 
 class Shape(ABC):
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
     @abstractmethod
     def print_info(self):
         pass
@@ -22,9 +26,8 @@ class Shape(ABC):
 
 class Sqare(Shape):
     def __init__(self, name, a, color):
-        self.name = name
+        super().__init__(name,  color)
         self.a = a
-        self.color = color
 
     def print_sq(self):
         return self.a ** 2
@@ -43,10 +46,9 @@ class Sqare(Shape):
 
 class Rectangle(Shape):
     def __init__(self, name, a, b, color):
-        self.name = name
+        super().__init__(name, color)
         self.a = a
         self.b = b
-        self.color = color
 
     def print_sq(self):
         return self.a * self.b
@@ -67,11 +69,10 @@ class Rectangle(Shape):
 
 class Triaangle(Shape):
     def __init__(self, name, a, b, c, color):
-        self.name = name
+        super().__init__(name, color)
         self.a = a
         self.b = b
         self.c = c
-        self.color = color
 
     def print_sq(self):
         p = (self.a + self.b + self.c) / 2
