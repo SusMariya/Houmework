@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0f1032-7c69-4a53-8283-981e6f0a8528" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/d_z35/ishod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z35/ishod.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z35/ishod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z35/shape/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z35/shape/circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z35/shape/cylinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z35/shape/cylinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_z35/shape/rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_z35/shape/rectangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1/giometry/trian.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1" />
   </component>
   <component name="RunManager" selected="Python.ishod">
     <configuration name="d_z28" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">

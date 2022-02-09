@@ -4,10 +4,14 @@ class Rectangle:
         self.h = h
 
     def get_rect_perimeter(self):
-        return f'Периметр: ', 2 * (self.w + self.h)
+        res = 2 * (self.w + self.h)
+        print(f'Периметр: , {res}')
+        return res
 
-    def get_square(self):
-        return self.w * self.h
+    def get_rect_aria(self):
+        res = self.w * self.h
+        print(f'Площадь: {res}')
+        return res
 
     def print_rect(self):
         print(f"Стороны: {self.w}, {self.h}")
