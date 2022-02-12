@@ -25,16 +25,16 @@ print(sorted_lst)
 print(binary_search(sorted_lst, x))
 
 # 2
-
-nums = [-2, 3, 8, -11, -4, 6]
-
-
-def count_nums(nums):
-    count = 0
-    for i in nums:
-        if i < 0:
-            count += 1
-    return count
-
-
-print(count_nums(nums))
+#
+# nums = [-2, 3, 8, -11, -4, 6]
+#
+#
+# def count_nums(nums):
+#     count = 0
+#     for i in nums:
+#         if i < 0:
+#             count += 1
+#     return count
+#
+#
+# print(count_nums(nums))
