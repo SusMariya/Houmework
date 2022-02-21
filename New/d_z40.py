@@ -21,7 +21,7 @@ def get_page_data(html):
             list.append(j)
     # print(list)
     list_new(list)
-page =1
+page =0
 rez_new=0
 def list_new(list):
     suma = 0
@@ -35,7 +35,7 @@ def list_new(list):
     rez = round((suma/count), 2)
     rez_new+=rez
     # return rez
-    # print(rez)
+    print(rez)
 
 def main():
     global page
