@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0f1032-7c69-4a53-8283-981e6f0a8528" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/d_Z39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_houme_jinja/d_z41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_houme_jinja/template/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_houme_jinja/template/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates_houme_jinja/template/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,12 +39,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonProject1/templates_37jinja/37.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.d_Z39">
+  <component name="RunManager" selected="Python.d_z41">
     <configuration name="33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ishod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="d_z41" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d_z35" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/templates_houme_jinja" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d_z35/ishod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/templates_houme_jinja/d_z41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d_z41" />
         <item itemvalue="Python.d_Z39" />
         <item itemvalue="Python.33" />
         <item itemvalue="Python.d_z37" />
         <item itemvalue="Python.d_z38" />
-        <item itemvalue="Python.ishod" />
       </list>
     </recent_temporary>
   </component>
