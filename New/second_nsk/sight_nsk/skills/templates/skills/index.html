@@ -1,0 +1,17 @@
+{% extends 'skills/base.html' %}
+
+{% block content %}
+<h1>Достопремечательности Новосибирска</h1>
+<div class="block">
+    {% for project ij projects %}
+    <div class="element"> 
+        <div><img src="{{ progect.image.url }}" alt=""></div>
+        <div class="text">
+            <h2><a href="{{ project.image.url }}"></a>{{ project.title }}</h2>
+            <p>{{ project.discription }}</p>
+        </div>
+    </div>
+    {{ projects.title }}
+    {% endfor %}
+</div>
+{% endblock %}
